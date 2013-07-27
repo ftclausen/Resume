@@ -1,73 +1,152 @@
-# Nathaniel Welch
+# Friedrich "Fred" Clausen
+## Contact Details
 
- * <nat@natwelch.com>
- * <http://natwelch.com>
- * 707-799-8675
+* Traditional
+    * <ftclausen@gmail.com>
+    * +31638624328
+* Online Identities
+    * [LinkedIn](http://nl.linkedin.com/in/friedrichclausen)
+    * [ServerFault](http://serverfault.com/users/127243/fred-clausen)
+    * [SuperUser](http://superuser.com/users/164635/fred-clausen)
+    * [StackOverflow](http://stackoverflow.com/users/1300307/fred-clausen)
 
-## Background
+## What I can Offer
 
-I am a software developer with an interest in communication and design. I enjoy experimenting with new things to expand my knowledge and I believe that creating ways for people to share knowledge is one of the greatest goals for mankind. 
+I offer my skills and experience to help the organisation or client I am working
+for achieve consistent systems, high availability and security. I enjoy working
+at the intersection of Development and Operations; helping each department
+understand the needs of the other and, at a technical level, creating tools and
+processes to make it all actually work.
 
-I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and was an active officer of the Cal Poly Linux Users Group for three years. I was awarded Cal Poly's Residence Hall Council member of the year for both 2006 and 2007. In my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
+## Proficiency Summary
 
-## Education
+My proficiencies cover the following areas
 
-Computer Science, B.S.  
-Fall 2006 - Spring 2011  
-California Polytechnic State University, San Luis Obispo  
+* **Application Administration** - Supporting, primarily Java, web applications with regard to
+provisioning, performance tuning and troubleshooting.
+* **Infrastructure Code** - A combination of configuration management and tool
+                            development in various scripting languages to support 
+                            automated infrastructure and application management.
+* **Systems Administration and Networking** - Managing, in as automated a way as possible, Linux 
+and Unix systems with regard to installation, ongoing maintenance and
+troubleshooting.  My Cisco studies have given me an understanding of networking
+theories and basic router and switch configuration. This allows me to see the
+greater context in which the systems and applications reside.
 
-## Proficiency
+## Proficiency Details
 
-I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Java, Ruby, Javascript and Bash, but I have experience in C, Python, SML/NJ, C++, SQL and F#.
+### Application Administration
+
+* **Java**
+    * JVM - Installation, upgrade considerations and tuning for type of application.
+    * Tomcat - Web application deployment, security and integration with other
+middleware.
+    * ActiveMQ - Installation, tuning and troubleshooting.
+
+* **Supporting Services and Tools**
+    * Apache - Integration with backend apps, tuning and security.
+    * Authentication - LDAP, Shibboleth (SAML2) single-sign-on
+    * Package Management - Red Hat (RPM) and Debian (.deb) packages
+* **Databases**
+    * MySQL - Installation, user creation, backup & recovery, replication, clustering
+    * PostgresSQL - Installation and configuration
+    * Oracle - Installation, configuration and tuning of SGA sizes. Alert log monitoring.
+    * SQL - Simple SQL queries for monitoring and troubleshooting.
+
+* **Monitoring**
+    * JMX - Querying JMX Metrics from Nagios, Munin and other systems
+    * Nagios - Plugin creation, Nagios installation and management
+    * SNMP
+    * Munin
+    * In house monitoring tools using rrdtool
+
+### Infrastructure Code
+
+* **Configuration Management** - I am using configuration management to affect fully
+                                 automatic and consistent environments. This
+                                 allows me to manage systems and applications at
+                                 scale.
+    * General - Working with other departments on a common code base - deciding
+                conventions and areas of responsibility. Writing documentation
+                and providing internal training for colleagues.
+    * Chef - Create/manage cookbooks, create data bags, custom Ohai plugins,
+             environment management, converting legacy scripts into
+             Cookbooks, Chef server and client management, node bootstrap.
+    * Puppet - Create/manage modules, create and use Facter facts, Puppet server
+               and node services, node bootstrap. 
+
+* **Version Control Systems** 
+    * Git - Configuration management repositories, in-house code
+            repositories.
+    * Subversion - Checkout and build legacy code bases.
+
+* **Code**
+    * Scripting - I have used the languages below for areas such as configuration management, 
+                  general automation and monitoring.
+        * Bash
+        * Perl
+        * Ruby
+        * Python
+    * Java - Small Java applications for systems integration efforts and bug 
+             replication.
+
+* **Development Support**
+    * Using Maven to build projects and manage dependencies.
+    * Using Hudson for continuous deployment.
+
+### Systems Administration and Networking
+
+* **Unix-like Systems**
+    * Linux - Red Hat, Debian, Ubuntu
+    * Solaris
+    * BSD - OpenBSD, FreeBSD
+    * OS X
+* **Security**
+    * VPN - OpenVPN, Linux IPsec (Kame + Racoon)
+    * Firewalls - IPtables and OpenBSD packet filter
+    * Implement security best practices
+    * Network audits with Nmap.
+    * OpenSSL - Create and inspect certificates
+    * Linux PAM
+* **Networking**
+    * OSI Model understanding
+    * TCP/IP theories and configuration
+    * Basic Cisco IOS usage
+    * Knowledge of switching concepts (VLANs and spanning tree)
+    * General understand of routing protocols.
+* **Virtualisation**
+    * Xen - Red Hat and Citrix
+    * VMware
+    * VirtualBox
+* **High-availability**
+    * LVS (Linux Virtual Server) Loadbalancer
+    * Heartbeat
+* **Systems Provisioning**
+    * Red Hat kickstart
+    * Debian FAI
+* **File Serving**
+    * NFS
+    * CIFS (Samba)
+    * Webdav
+* **Storage**
+    * RAID Concepts and configuration on common controllers
+    * Linux software raid
+    * Linux Logical Volume Manager (LVM)
+    * Disk encryption with Luks
+* **Commonly Run Services**
+    * DNS - ISC Bind
+    * OpenSSH
+    * DHCP - ISC dhcpd
+
+## Working Styles
+
+* Embedded in development teams; taking part in Scrum.
+* DevOps style co-operation between Operations and Development.
+
+## Qualifications
 
 ## Experience
 
-### Open Source Developer
+### Blackboard International
 
-I currently am a contributor to the open source project [fog](http://fog.io).
-
-### Google.com, San Francisco, CA
-
-#### Site Reliability Engineer - April 2012 to Present
-
-I work as an SRE for Google Compute Engine and Google Cloud Storage.
-
-#### Software Engineer - August 2011 to September 2012
-
-As a Software Engineer at Google, I worked on Punchd, Google Offers and Google Local.
-
-### Punchd, Mountain View, CA
-
-#### Software Developer - May 2011 to July 2011
-
-I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. Once at Google I continued to maintain Punchd's servers, backend API and web frontend. I also helped implement a version of Punchd built on Google's infrastructure, but it was never released.
-
-### iFixit.com, San Luis Obispo CA
-
-#### Software Developer - April 2009 to April 2011
-
-I wore a variety of hats including -- but not limited to -- writing code to promote high quality content and a stable community, helping keep servers afloat, and working with users to develop content. I wrote code mainly in PHP and Bash, and helped maintain our fleet of servers on Amazon's EC2 Service. 
-
- * Helped create a site-wide reputation community, which began with [iFixit.com/Answers](http://ifixit.com/Answers)
- * Helped maintain various servers, located on Amazon EC2, and local development machines
- * Developed the first JavaScript widget for iFixit's API.
- * Redefined iFixit's developer work flow
-
-<!--
-### Adobe Systems Incorporated, San Francisco CA
-
-#### Dreamweaver Quality Engineering Intern - Summer 2007 and 2008
-
- * Tested both daily builds and released versions of Dreamweaver against various operating systems - including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
- * Helped maintain the Server Matrix, Bug-base, and test a new test case application
- * Helped develop and test the Web Widgets Feature for Dreamweaver CS4, which won the "Dreamweaver Community Feature of the Year" award in 2008.
--->
-
-### BSA Camp Oljato, Lakeshore CA
-
-#### Nature Director - Summer 2006
-#### Camp Counselor - Summer 2002, 2003 and 2004
-
- * In charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks per summer.
- * Taught merit badge classes such as wilderness survival, camping, hiking, and others to children ages ten to eighteen.
 
