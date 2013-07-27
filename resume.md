@@ -47,6 +47,11 @@ middleware.
     * Apache - Integration with backend apps, tuning and security.
     * Authentication - LDAP, Shibboleth (SAML2) single-sign-on
     * Package Management - Red Hat (RPM) and Debian (.deb) packages
+    * Documentation
+        * Wiki based, e.g. Atlassian Confluence, MediaWiki. 
+        * Markdown documents. 
+        * Diagrams - Google drawings, yEd, Visio
+
 * **Databases**
     * MySQL - Installation, user creation, backup & recovery, replication, clustering
     * PostgresSQL - Installation and configuration
@@ -148,5 +153,32 @@ middleware.
 ## Experience
 
 ### Blackboard International
+#### Web Applications Administrator - July 2011 to Present
+Location: Amsterdam, The Netherlands
+
+Description here
+
+### Marktplaats/eBay
+#### Systems/Applications Administrator (Freelance) - March 2010 to May 2011
+Location: Amsterdam, The Netherlands
+
+### IPSoft
+#### Systems Administrator - April 2009 to March 2010
+Location: Amsterdam, The Netherlands
+
+### TomTom
+#### Systems Administrator - February 2008 to April 2009
+Location: Amsterdam, The Netherlands
+
+### Telfort (formarly Tiscali) Internet
+#### Systems Administrator - March 2005 to December 2007
+Location: Utrecht, The Netherlands
+
+### New Zealand Holiday - August 2004 to March 2005
+Extended backpacking trip to New Zealand. 
+
+### Xinit Systems
+#### Professional Services Engineer - July 2003 to August 2004
+Location: London, UK
 
 

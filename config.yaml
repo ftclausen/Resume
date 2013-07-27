@@ -13,7 +13,7 @@ user_config:
   pic: ''
 
   # The google analytics key you wish to use.
-  gkey: ''
+  gkey: 'UA-42775813-1'
 
 # For github pages to work, this needs to be the GitHub repository this file is
 # stored in.
