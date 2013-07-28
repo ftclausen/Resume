@@ -5,7 +5,7 @@
     * <ftclausen@gmail.com>
     * +31638624328
 * Online Identities
-    * [LinkedIn](http://nl.linkedin.com/in/friedrichclausen)
+    * [LinkedIn](http://www.linkedin.com/in/friedrichclausen)
     * [ServerFault](http://serverfault.com/users/127243/fred-clausen)
     * [SuperUser](http://superuser.com/users/164635/fred-clausen)
     * [StackOverflow](http://stackoverflow.com/users/1300307/fred-clausen)
@@ -142,7 +142,7 @@ middleware.
     * RAID Concepts and configuration on common controllers
     * Linux software raid
     * Linux Logical Volume Manager (LVM)
-    * Disk encryption with Luks
+    * Disk encryption with LUKS
 * **Commonly Run Services**
     * DNS - ISC Bind
     * OpenSSH
@@ -153,7 +153,12 @@ middleware.
 * Embedded in development teams; taking part in Scrum.
 * DevOps style co-operation between Operations and Development.
 
-## Qualifications
+## Professional Qualifications
+
+* Red Hat Certified Engineer (RHCE) - Renewal February 2010
+* Solaris Certified System Administrator (SCSA) - August 2004
+* Cisco Certified Network Associate (CCNA) - December 2000
+* Red Hat Certified Engineer (RHCE) - July 2000
 
 ## Experience
 
@@ -237,5 +242,5 @@ also supported the employee workstations.
 Location: Guildford, UK
 
 I provided first line technical support for Red Hat Linux
-which entailed helping customers install and use the product
+which entailed helping customers install and use the product.
 
