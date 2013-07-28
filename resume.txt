@@ -12,11 +12,9 @@
 
 ## What I Can Offer
 
-I offer my skills and experience to help the organisation or client I am working
-for achieve consistent systems, high availability and security. I enjoy working
-at the intersection of Development and Operations; helping each department
-understand the needs of the other and, at a technical level, creating tools and
-processes to make it all actually work.
+I can work well at the intersection of Development and Operations; helping each department
+understand the needs of the other and, at a technical level, creating tools and processes 
+to make it all actually work.
 
 ## Proficiency Summary
 
