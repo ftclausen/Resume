@@ -153,13 +153,6 @@ middleware.
 * Embedded in development teams; taking part in Scrum.
 * DevOps style co-operation between Operations and Development.
 
-## Professional Qualifications
-
-* Red Hat Certified Engineer (RHCE) - Renewal February 2010
-* Solaris Certified System Administrator (SCSA) - August 2004
-* Cisco Certified Network Associate (CCNA) - December 2000
-* Red Hat Certified Engineer (RHCE) - July 2000
-
 ## Experience
 
 ### Blackboard International
