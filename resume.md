@@ -10,7 +10,7 @@
     * [SuperUser](http://superuser.com/users/164635/fred-clausen)
     * [StackOverflow](http://stackoverflow.com/users/1300307/fred-clausen)
 
-## What I can Offer
+## What I Can Offer
 
 I offer my skills and experience to help the organisation or client I am working
 for achieve consistent systems, high availability and security. I enjoy working
@@ -25,13 +25,18 @@ My proficiencies cover the following areas
 * **Application Administration** - Supporting, primarily Java, web applications with regard to
 provisioning, performance tuning and troubleshooting.
 * **Infrastructure Code** - A combination of configuration management and tool
-                            development in various scripting languages to support 
-                            automated infrastructure and application management.
+    development in various scripting languages to support 
+    automated infrastructure and application management.
 * **Systems Administration and Networking** - Managing, in as automated a way as possible, Linux 
-and Unix systems with regard to installation, ongoing maintenance and
-troubleshooting.  My Cisco studies have given me an understanding of networking
-theories and basic router and switch configuration. This allows me to see the
-greater context in which the systems and applications reside.
+    and Unix systems with regard to installation, ongoing maintenance and
+    troubleshooting.  My Cisco studies have given me an understanding of networking
+    theories and basic router and switch configuration. This allows me to see the
+    greater context in which the systems and applications reside.
+
+Spoken languages
+
+* English - Native
+* Dutch - Fluent
 
 ## Proficiency Details
 
@@ -156,23 +161,49 @@ middleware.
 #### Web Applications Administrator - July 2011 to Present
 Location: Amsterdam, The Netherlands
 
-Description here
+As a Web Applications Administrator in the Web Tech team my 
+responsibilities include ensuring the stability and performance 
+of the Blackboard Managed Hosting applications; this involves 
+tasks such as tuning and root cause analysis.
+
+My other responsibilities revolve around improvement initiatives
+primarily focussed on improving the level of automation within the
+managed hosting departments.
 
 ### Marktplaats/eBay
 #### Systems/Applications Administrator (Freelance) - March 2010 to May 2011
 Location: Amsterdam, The Netherlands
 
+Together with the rest of the site operations team I was responsible for 
+ensuring the availability and performance of the Marktplaats, an eBay subsidiary, 
+web applications. Additionally I worked embedded within a development team to 
+provide operations support for the development efforts. Such as managing the test
+infrastructure, setting up monitoring, interfacing with the operations/networking
+departments and production deployments.
+
 ### IPSoft
 #### Systems Administrator - April 2009 to March 2010
 Location: Amsterdam, The Netherlands
 
+My responsibilities at IPSoft were to provide systems administration services
+to the client base, both on-site and remotely, while actively working to refine 
+existing processes and knowledge with regards to the management of client systems
+
 ### TomTom
-#### Systems Administrator - February 2008 to April 2009
+#### Systems Administrator (Freelance) - February 2008 to April 2009
 Location: Amsterdam, The Netherlands
 
-### Telfort (formarly Tiscali) Internet
-#### Systems Administrator - March 2005 to December 2007
+At TomTom I was the infrastructural lead on projects, which entailed 
+working with both the development and operational teams, to ensure 
+a smooth transitioning from a project in development to a production service.
+
+### Telfort (formerly Tiscali) Internet
+#### Systems Administrator (Initially freelance then permanent) - March 2005 to December 2007
 Location: Utrecht, The Netherlands
+
+Here I was part of the team managing the core ISP infrastructure and 
+also taking on improvement initiatives to further the level of automation
+and systems consistency.
 
 ### New Zealand Holiday - August 2004 to March 2005
 Extended backpacking trip to New Zealand. 
@@ -181,4 +212,30 @@ Extended backpacking trip to New Zealand.
 #### Professional Services Engineer - July 2003 to August 2004
 Location: London, UK
 
+My responsibilities were providing professional Linux support 
+services to customers and also managing the Xinit internal 
+infrastructure.
+
+### Unique Broadcasting Company
+#### System Administrator - November 2001 to June 2003
+Location: London, UK
+
+I supported the backend servers powering their digital radio
+support services. I also worked with the development team to
+manage their testing infrastructure and ensure smooth production 
+deployments.
+
+### Frontwire Ltd.
+#### Systems Administrator - January 2001 to July 2001
+Location: London, UK
+
+At Frontwire I was the backend systems administrator and 
+also supported the employee workstations.
+
+### Red Hat Europe
+#### Linux Technical Support - June 2000 to November 2000
+Location: Guildford, UK
+
+I provided first line technical support for Red Hat Linux
+which entailed helping customers install and use the product.
 
