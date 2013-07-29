@@ -27,8 +27,8 @@ provisioning, performance tuning and troubleshooting.
     automated infrastructure and application management.
 * **Systems Administration and Networking** - Managing, in as automated a way as possible, Linux 
     and Unix systems with regard to installation, ongoing maintenance and troubleshooting. Network 
-    management experience has given me an of networking configuration and how the servers I manage 
-    fit into the larger network.
+    management experience has given me good grasp of networking configuration and how the servers 
+    I manage fit into the larger network.
 
 Spoken languages
 
