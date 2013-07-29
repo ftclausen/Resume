@@ -26,15 +26,14 @@ provisioning, performance tuning and troubleshooting.
     development in various scripting languages to support 
     automated infrastructure and application management.
 * **Systems Administration and Networking** - Managing, in as automated a way as possible, Linux 
-    and Unix systems with regard to installation, ongoing maintenance and
-    troubleshooting.  My Cisco studies have given me an understanding of networking
-    theories and basic router and switch configuration. This allows me to see the
-    greater context in which the systems and applications reside.
+    and Unix systems with regard to installation, ongoing maintenance and troubleshooting. Network 
+    management experience has given me an of networking configuration and how the servers I manage 
+    fit into the larger network.
 
 Spoken languages
 
-* English - Native
-* Dutch - Fluent
+* English - Native speaker
+* Dutch - Fluent speaker
 
 ## Proficiency Details
 
