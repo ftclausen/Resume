@@ -12,9 +12,12 @@
 
 ## What I Can Offer
 
-I can work well at the intersection of Development and Operations; helping each department
-understand the needs of the other and, at a technical level, creating tools and processes 
-to make it all actually work.
+I am an applications/systems administrator and I particularly 
+enjoy working at the intersection of development and operations; 
+helping each department understand the needs of the other and, 
+at a technical level, creating the tools and processes to make 
+the various components of a given service, or interoperating services, 
+work smoothly.
 
 ## Proficiency Summary
 
