@@ -3,12 +3,12 @@
 
 * Traditional
     * <ftclausen@gmail.com>
-    * +31638624328
+    * +61474301224
 * Online Identities
-    * [LinkedIn](http://www.linkedin.com/in/friedrichclausen)
-    * [ServerFault](http://serverfault.com/users/127243/fred-clausen)
-    * [SuperUser](http://superuser.com/users/164635/fred-clausen)
-    * [StackOverflow](http://stackoverflow.com/users/1300307/fred-clausen)
+    * [LinkedIn](http://www.linkedin.com/in/friedrichclausen) (http://www.linkedin.com/in/friedrichclausen)
+    * [ServerFault](http://serverfault.com/users/127243/fred-clausen) (http://serverfault.com/users/127243/fred-clausen)
+    * [SuperUser](http://superuser.com/users/164635/fred-clausen) (http://superuser.com/users/164635/fred-clausen)
+    * [StackOverflow](http://stackoverflow.com/users/1300307/fred-clausen) (http://stackoverflow.com/users/1300307/fred-clausen)
 
 ## What I Can Offer
 
