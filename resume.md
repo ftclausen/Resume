@@ -5,6 +5,7 @@
     * <ftclausen@gmail.com>
     * +61474301224
 * Online Identities
+    * [Github](https://github.com/ftclausen) (https://github.com/ftclausen)
     * [LinkedIn](http://www.linkedin.com/in/friedrichclausen) (http://www.linkedin.com/in/friedrichclausen)
     * [ServerFault](http://serverfault.com/users/127243/fred-clausen) (http://serverfault.com/users/127243/fred-clausen)
     * [SuperUser](http://superuser.com/users/164635/fred-clausen) (http://superuser.com/users/164635/fred-clausen)
@@ -94,9 +95,9 @@ middleware.
     * Scripting - I have used the languages below for areas such as configuration management, 
                   general automation and monitoring.
         * Bash
-        * Perl
         * Ruby
         * Python
+        * Perl
     * Java - Small Java applications for systems integration efforts and bug 
              replication.
 
@@ -156,7 +157,19 @@ middleware.
 ## Experience
 
 ### Blackboard International
-#### Web Applications Administrator - July 2011 to Present
+#### Infrastructure Automation Developer - October 2014 to Present
+Location: Sydney, Australia
+
+In my role as an Automation Developer I am responsible for writing 
+infrastructure (and supporting) code to allow Blackboard to fully 
+automatically deploy our product offerings on both public cloud providers
+such as AWS as well as private cloud environments running on Openstack.
+
+This role encompasses writing configuration management code (Chef), libraries
+and other glue code. Besides the development tasks I collaborate with my 
+colleagues to make architectural decisions concerning the technology stack.
+
+#### Web Applications Administrator - July 2011 to October 2014
 Location: Amsterdam, The Netherlands
 
 As a Web Applications Administrator in the Web Tech team my 
