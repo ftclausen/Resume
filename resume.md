@@ -101,6 +101,11 @@ middleware.
     * Java - Small Java applications for systems integration efforts and bug 
              replication.
 
+* **Testing**
+    * Configuration management
+        * Unit Testing - Chefspec and Rspec
+        * Integration Testing - Test Kitchen with Serverspec
+
 * **Development Support**
     * Using Maven to build projects and manage dependencies.
     * Using Hudson for continuous deployment.
