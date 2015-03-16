@@ -3,7 +3,6 @@
 
 * Traditional
     * <ftclausen@gmail.com>
-    * +61474301224
 * Online Identities
     * [Github](https://github.com/ftclausen) (https://github.com/ftclausen)
     * [LinkedIn](http://www.linkedin.com/in/friedrichclausen) (http://www.linkedin.com/in/friedrichclausen)
