@@ -12,22 +12,26 @@
 
 ## What I Can Offer
 
-I am an applications/systems administrator and I particularly 
+I am an infrastructure automation developer and I particularly 
 enjoy working at the intersection of development and operations; 
 helping each team understand the needs of the other and, 
 at a technical level, creating the tools and processes to make 
 the various components of a given service, or interoperating services, 
-work smoothly.
+work smoothly. I am also keen to contribute to the core products in 
+order to further advance scalability and manageability.
 
 ## Proficiency Summary
 
 My proficiencies cover the following areas
 
-* **Application Administration** - Supporting, primarily Java, web applications with regard to
-provisioning, performance tuning and troubleshooting.
+* **Development Support** - Contributing to build engineering tasks such as
+    build system code, version control and Continuous Integration (CI)
+    systems management.
 * **Infrastructure Code** - A combination of configuration management and tool
     development in various scripting languages to support 
     automated infrastructure and application management.
+* **Application Administration** - Supporting, primarily Java, web applications with regard to
+    provisioning, performance tuning and troubleshooting.
 * **Systems Administration and Networking** - Managing, in as automated a way as possible, Linux 
     and Unix systems with regard to installation, ongoing maintenance and troubleshooting. Network 
     management experience has given me good grasp of networking configuration and how the servers 
@@ -39,6 +43,50 @@ Spoken languages
 * Dutch - Fluent speaker
 
 ## Proficiency Details
+
+
+### Infrastructure Code
+
+* **Code**
+    * Scripting - I have used the languages below for areas such as configuration management, 
+                  general automation and monitoring.
+        * Bash
+        * Ruby
+        * Python
+        * Perl
+    * Groovy - Used in the context of Gradle
+    * Java - I have written small Java services for "glue" integration services
+        and also modest product contributions to support better build
+        integration.
+    * Testing - Unit tests JUnit in the context of Groovy and Java
+
+* **Configuration Management** - I am using configuration management to affect fully
+                                 automatic and consistent environments. This
+                                 allows me to manage systems and applications at
+                                 scale.
+    * General - Working with other departments on a common code base - deciding
+                conventions and areas of responsibility. Writing documentation
+                and providing internal training for colleagues.
+    * Chef - Create/manage cookbooks, create data bags, custom Ohai plugins,
+             environment management, converting legacy scripts into
+             Cookbooks, Chef server and client management, node bootstrap.
+    * Puppet - Create/manage modules, create and use Facter facts, Puppet server
+               and node services, node bootstrap. 
+
+* **Version Control Systems** 
+    * Git - Configuration management repositories, in-house code
+            repositories.
+    * Subversion - Checkout and build legacy code bases.
+
+
+* **Testing**
+    * Configuration management
+        * Unit Testing - Chefspec and Rspec
+        * Integration Testing - Test Kitchen with Serverspec
+
+* **Development Support**
+    * Using Maven to build projects and manage dependencies.
+    * Using Hudson for continuous deployment.
 
 ### Application Administration
 
@@ -69,45 +117,6 @@ middleware.
     * SNMP
     * Munin
     * In house monitoring tools using rrdtool
-
-### Infrastructure Code
-
-* **Configuration Management** - I am using configuration management to affect fully
-                                 automatic and consistent environments. This
-                                 allows me to manage systems and applications at
-                                 scale.
-    * General - Working with other departments on a common code base - deciding
-                conventions and areas of responsibility. Writing documentation
-                and providing internal training for colleagues.
-    * Chef - Create/manage cookbooks, create data bags, custom Ohai plugins,
-             environment management, converting legacy scripts into
-             Cookbooks, Chef server and client management, node bootstrap.
-    * Puppet - Create/manage modules, create and use Facter facts, Puppet server
-               and node services, node bootstrap. 
-
-* **Version Control Systems** 
-    * Git - Configuration management repositories, in-house code
-            repositories.
-    * Subversion - Checkout and build legacy code bases.
-
-* **Code**
-    * Scripting - I have used the languages below for areas such as configuration management, 
-                  general automation and monitoring.
-        * Bash
-        * Ruby
-        * Python
-        * Perl
-    * Java - Small Java applications for systems integration efforts and bug 
-             replication.
-
-* **Testing**
-    * Configuration management
-        * Unit Testing - Chefspec and Rspec
-        * Integration Testing - Test Kitchen with Serverspec
-
-* **Development Support**
-    * Using Maven to build projects and manage dependencies.
-    * Using Hudson for continuous deployment.
 
 ### Systems Administration and Networking
 
@@ -169,9 +178,9 @@ infrastructure (and supporting) code to allow Blackboard to fully
 automatically deploy our product offerings on both public cloud providers
 such as AWS as well as private cloud environments running on Openstack.
 
-This role encompasses writing configuration management code (Chef), libraries
-and other glue code. Besides the development tasks I collaborate with my 
-colleagues to make architectural decisions concerning the technology stack.
+This role also encompassed build engineering tasks such as implementing
+Gradle build system code (build file DSL and Gradle plugins) as well as
+modifying the main product (Java) to support semantic versioning.
 
 #### Web Applications Administrator - July 2011 to October 2014
 Location: Amsterdam, The Netherlands
