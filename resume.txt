@@ -170,6 +170,19 @@ middleware.
 ## Experience
 
 ### Blackboard International
+#### Build and Release Engineer - October 2015 to Present
+Location: Sydney, Australia
+
+In this role I'm working to 
+
+* Extend our existing Gradle build system
+* Ensure reproducible builds
+* Support the Jenkins pipeline
+* Create releases
+
+As well as tasks related supporting the automation surrounding the release 
+process (primarily Chef) and provisioning to AWS.
+
 #### Infrastructure Automation Developer - October 2014 to Present
 Location: Sydney, Australia
 
