@@ -27,9 +27,10 @@ My proficiencies cover the following areas
 * **Development Support** - Contributing to build engineering tasks such as
     build system code, version control and Continuous Integration (CI)
     systems management.
-* **Infrastructure Code** - A combination of configuration management and tool
+* **Infrastructure Code and Orchestration** - A combination of configuration management and tool
     development in various scripting languages to support 
-    automated infrastructure and application management.
+    automated infrastructure and application management. This includes using
+    container orchestration tools like Kubernetes (K8s) and Mesos/Marathon.
 * **Application Administration** - Supporting, primarily Java, web applications with regard to
     provisioning, performance tuning and troubleshooting.
 * **Systems Administration and Networking** - Managing, in as automated a way as possible, Linux 
@@ -59,6 +60,17 @@ Spoken languages
         and also modest product contributions to support better build
         integration.
     * Testing - Unit tests JUnit in the context of Groovy and Java
+
+* **Containers and Container Orchestration**
+    * Containers - Create, update and run Docker containers mostly in the
+        context of continuous integration and deployment. Create and maintain
+        tooling to streamline and automate container creation tailored to
+        support development workflows.
+    * Orchestration - Define deployment specs for Kubernetes and Mesos/Marathon
+        to support both building, testing and deploying applications.
+    * CI/CD - Integrate container creation and deployment with Jenkins to fully
+        automate building, testing and deployment when code is committed to
+        revision control.
 
 * **Configuration Management** - I am using configuration management to affect fully
                                  automatic and consistent environments. This
