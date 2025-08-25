@@ -9,6 +9,7 @@
     * [ServerFault](http://serverfault.com/users/127243/fred-clausen) (http://serverfault.com/users/127243/fred-clausen)
     * [SuperUser](http://superuser.com/users/164635/fred-clausen) (http://superuser.com/users/164635/fred-clausen)
     * [StackOverflow](http://stackoverflow.com/users/1300307/fred-clausen) (http://stackoverflow.com/users/1300307/fred-clausen)
+    * [Math StackExchange](https://math.stackexchange.com/users/109665/friedrich-fred-clausen) (https://math.stackexchange.com/users/109665/friedrich-fred-clausen)
 
 ## What I Can Offer
 
@@ -181,19 +182,42 @@ middleware.
 
 ## Experience
 
-### Blackboard International
-#### Build and Release Engineer - October 2015 to Present
-Location: Sydney, Australia
+### Anthology (Formerly Blackboard)
+
+#### Platform Engineer, CI/CD, Infra as Code (Staff Platform Engineer) - January 2020 to Present
+Location: Remote in NSW, Australia
+
+Work on projects to streamline our infrastructure, applications, and processes to not only automate but view our platform and applications as single system. Thus:
+
+ - Everything is API first
+ - In keeping with the above point, modify our core applications to better support automation
+ - Use AWS and other facilities where appropriate, we want to differentiate in our app not reinvent the wheel
+ - Deploy Infrastructure with awareness of other systems and APIs. Use AWS CDK and Terraform to define all infrastructure thus ensuring we have controlled release, accountability, and change history.
+
+In addition to the above:
+
+- Maintain our CI/CD infrastructure consisting of Jenkins code (JobDSL, Jenkinsfile Groovy DSL)
+- Maintain Gradle based build systems (Groovy based)
+- Handle SRE related escalations
+
+#### Build and Release Engineer - October 2015 to January 2020
+Location: Remote in NSW, Australia
 
 In this role I'm working to 
 
+Infrastructure:
+
+* Deploy Microservices via AWS CDK (Cloud Development Kit)
+* Migrate Microservices from Terraform to AWS CDK
+* Deploy Microservices via Terraform
+
+CI/CD Tasks:
+
 * Extend our existing Gradle build system
 * Ensure reproducible builds
-* Support the Jenkins pipeline
+* Use container orchestration tools like Kubernetes to deploy services
+* Support the Jenkins pipeline and integrate with Kubernetes for scalable builds
 * Create releases
-
-As well as tasks related supporting the automation surrounding the release 
-process (primarily Chef) and provisioning to AWS.
 
 #### Infrastructure Automation Developer - October 2014 to Present
 Location: Sydney, Australia
