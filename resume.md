@@ -102,6 +102,10 @@ experience has been with:
 And, of course, Bash which is ubiquitous. Everything from quick command-line loops to custom deployment wrappers
 performing the "last mile" of customisation.
 
+I find the command-line most comfortable (and enjoyable) and mostly work in Unix-like environments. Specifically, every service I work on
+runs in a Linux-derived runtime of some sort. I am also familiar with Linux base level services like systemd, legacy
+init, PAM, etc.
+
 #### Testing
 
 I always try and write my code to testable whether it is for Infra or a running service. I usually use what is common
@@ -189,12 +193,6 @@ Understanding of networking fundamentals such as:
 * RAID Concept
 * Linux software raid
 * Linux Logical Volume Manager (LVM)
-
-### OS Experience
-
-I find the command-line most comfortable (and enjoyable) and mostly work in Unix-like environments. Specifically, every service I work on
-runs in a Linux-derived runtime of some sort. I am also familiar with Linux base level services like systemd, legacy
-init, PAM, etc.
 
 ## Spoken languages
 
