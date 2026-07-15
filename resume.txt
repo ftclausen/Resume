@@ -41,8 +41,8 @@ My proficiencies cover the following areas (see following sections for more deta
     better) by SRE and similar, the infrastructural lessons I learned there serve me well. That experience enables me to
     quickly hone in on potential areas of investigation or how a stack might fit together. As well has handy troubleshooting
     skills like packet sniffing and strace.
-* **Inter Team Conventions** - I try to establish a "paved road" that can make the lives of developers easier so they
-    can focus on their value add. For example: shared CI/CD libraries/GitHub actions.
+* **Cross-team Conventions** - Pioneer a "paved road" that can make the lives of developers easier so they
+    can focus on their value add.
 
 ## A note on AI / LLM / ML
 
@@ -263,6 +263,7 @@ primarily focussed on improving the level of automation within the
 managed hosting departments.
 
 ### Marktplaats/eBay
+
 #### Systems/Applications Administrator (Freelance) - March 2010 to May 2011
 Location: Amsterdam, The Netherlands
 
@@ -273,61 +274,21 @@ provide operations support for the development efforts. Such as managing the tes
 infrastructure, setting up monitoring, interfacing with the operations/networking
 departments and production deployments.
 
-### IPSoft
-#### Systems Administrator - April 2009 to March 2010
-Location: Amsterdam, The Netherlands
+### Earlier Career — Linux & Systems Administration (2000–2010)
 
-My responsibilities at IPSoft were to provide systems administration services
-to the client base, both on-site and remotely, while actively working to refine 
-existing processes and knowledge with regards to the management of client systems
+My early career gave me a grounding in computing infrastructure and also working independently as, often, the only
+system administrator in a company.
 
-### TomTom
-#### Systems Administrator (Freelance) - February 2008 to April 2009
-Location: Amsterdam, The Netherlands
-
-At TomTom I was the infrastructural lead on projects, which entailed 
-working with both the development and operational teams, to ensure 
-a smooth transitioning from a project in development to a production service.
-
-### Telfort (formerly Tiscali) Internet
-#### Systems Administrator (Initially freelance then permanent) - March 2005 to December 2007
-Location: Utrecht, The Netherlands
-
-Here I was part of the team managing the core ISP infrastructure and 
-also taking on improvement initiatives to further the level of automation
-and systems consistency.
-
-### New Zealand Holiday - August 2004 to March 2005
-Extended backpacking trip to New Zealand. 
-
-### Xinit Systems
-#### Professional Services Engineer - July 2003 to August 2004
-Location: London, UK
-
-My responsibilities were providing professional Linux support 
-services to customers and also managing the Xinit internal 
-infrastructure.
-
-### Unique Broadcasting Company
-#### System Administrator - November 2001 to June 2003
-Location: London, UK
-
-I supported the backend servers powering their digital radio
-support services. I also worked with the development team to
-manage their testing infrastructure and ensure smooth production 
-deployments.
-
-### Frontwire Ltd.
-#### Systems Administrator - January 2001 to July 2001
-Location: London, UK
-
-At Frontwire I was the backend systems administrator and 
-also supported the employee workstations.
-
-### Red Hat Europe
-#### Linux Technical Support - June 2000 to November 2000
-Location: Guildford, UK
-
-I provided first line technical support for Red Hat Linux
-which entailed helping customers install and use the product.
+**IPSoft**, Professional Services, Amsterdam — 2009–2010 - Support managed services customers
+**TomTom** (Freelance), System Admin + Developer Support, Amsterdam — 2008–2009 — Ensuring the needs of developers
+matched with infrastructure.
+**Telfort/Tiscali Internet**, Systems Admin, Utrecht — 2005–2007 — Management of core ISP infrastructure, drove automation initiatives
+*(Aug 2004 – Mar 2005: backpacking through New Zealand)*
+**Xinit Systems**, Professional Services Engineer, London — 2003–2004 — Linux Support - Ensuring Xinit customers are successful
+with their computing investments
+**Unique Broadcasting Company**, Systems Admin, London — 2001–2003 - Infrastructure for digital radio, working closely
+with dev team
+**Frontwire Ltd.**, Systems Admin, London — 2001 - Manage computing infrastructure for Frontwire's messaging platform
+**Red Hat Europe**, Linux Technical Support, Guildford — 2000 - Help Red Hat Linux customers be successful in their use
+of the product.
 
