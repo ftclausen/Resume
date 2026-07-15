@@ -279,16 +279,16 @@ departments and production deployments.
 My early career gave me a grounding in computing infrastructure and also working independently as, often, the only
 system administrator in a company.
 
-**IPSoft**, Professional Services, Amsterdam — 2009–2010 - Support managed services customers
-**TomTom** (Freelance), System Admin + Developer Support, Amsterdam — 2008–2009 — Ensuring the needs of developers
+* **IPSoft**, Professional Services, Amsterdam — 2009–2010 - Support managed services customers
+* **TomTom** (Freelance), System Admin + Developer Support, Amsterdam — 2008–2009 — Ensuring the needs of developers
 matched with infrastructure.
-**Telfort/Tiscali Internet**, Systems Admin, Utrecht — 2005–2007 — Management of core ISP infrastructure, drove automation initiatives
-*(Aug 2004 – Mar 2005: backpacking through New Zealand)*
-**Xinit Systems**, Professional Services Engineer, London — 2003–2004 — Linux Support - Ensuring Xinit customers are successful
+* **Telfort/Tiscali Internet**, Systems Admin, Utrecht — 2005–2007 — Management of core ISP infrastructure, drove automation initiatives
+* *(Aug 2004 – Mar 2005: backpacking through New Zealand)*
+* **Xinit Systems**, Professional Services Engineer, London — 2003–2004 — Linux Support - Ensuring Xinit customers are successful
 with their computing investments
-**Unique Broadcasting Company**, Systems Admin, London — 2001–2003 - Infrastructure for digital radio, working closely
+* **Unique Broadcasting Company**, Systems Admin, London — 2001–2003 - Infrastructure for digital radio, working closely
 with dev team
-**Frontwire Ltd.**, Systems Admin, London — 2001 - Manage computing infrastructure for Frontwire's messaging platform
-**Red Hat Europe**, Linux Technical Support, Guildford — 2000 - Help Red Hat Linux customers be successful in their use
+* **Frontwire Ltd.**, Systems Admin, London — 2001 - Manage computing infrastructure for Frontwire's messaging platform
+* **Red Hat Europe**, Linux Technical Support, Guildford — 2000 - Help Red Hat Linux customers be successful in their use
 of the product.
 
