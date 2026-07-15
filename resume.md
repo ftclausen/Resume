@@ -276,8 +276,8 @@ departments and production deployments.
 
 ### Earlier Career — Linux & Systems Administration (2000–2010)
 
-My early career gave me a grounding in computing infrastructure and also working independently as, often, the only
-system administrator in a company.
+My early career gave me a solid grounding in network and computing infrastructure. As well as working independently as,
+often, the only system administrator in a company.
 
 * **IPSoft**, Professional Services, Amsterdam — 2009–2010 - Support managed services customers
 * **TomTom** (Freelance), System Admin + Developer Support, Amsterdam — 2008–2009 — Ensuring the needs of developers
