@@ -8,7 +8,7 @@ task :default => [:github]
 
 desc "Run your resume locally."
 task :local do
-  Kernel.exec("shotgun -d -s thin -o 0.0.0.0 -p 9393")
+  Kernel.exec("rackup -s thin -o 0.0.0.0 -p 9393")
 end
 
 # Based off of http://railspikes.com/2010/2/13/rake-task-for-deploying-to-heroku
@@ -74,7 +74,7 @@ task :github do
   Dir.entries(root).keep_if {|f| File.file? f}.each {|f| g.remove f }
 
   files.each {|file|
-    browser.get file
+    browser.get file, {}, {'HTTP_HOST' => 'localhost'}
     content = browser.last_response.body
     FileUtils.mkdir_p("#{root}/#{File.dirname(file)}")
     File.open("#{root}/#{file}", 'w') {|f| f.write(content) }
@@ -82,10 +82,14 @@ task :github do
     g.add(file)
   }
 
-  g.commit('Regenerating Github Pages.')
+  if g.status.changed.empty? && g.status.added.empty? && g.status.deleted.empty?
+    puts '--> Nothing changed, skipping commit and push.'
+  else
+    g.commit('Regenerating Github Pages.')
 
-  # PUSH!
-  g.push(g.remote('origin'), g.branch('gh-pages'))
+    # PUSH!
+    g.push(g.remote('origin'), g.branch('gh-pages'))
 
-  puts '--> GitHub Pages Commit and Push successful.'
+    puts '--> GitHub Pages Commit and Push successful.'
+  end
 end

@@ -10,5 +10,5 @@ gem 'thin'
 gem 'tilt'
 
 group :development do
-  gem 'shotgun'
+  gem 'rackup'
 end
