@@ -9,191 +9,236 @@
     * [ServerFault](http://serverfault.com/users/127243/fred-clausen) (http://serverfault.com/users/127243/fred-clausen)
     * [SuperUser](http://superuser.com/users/164635/fred-clausen) (http://superuser.com/users/164635/fred-clausen)
     * [StackOverflow](http://stackoverflow.com/users/1300307/fred-clausen) (http://stackoverflow.com/users/1300307/fred-clausen)
+    * [Math StackExchange](https://math.stackexchange.com/users/109665/friedrich-fred-clausen) (https://math.stackexchange.com/users/109665/friedrich-fred-clausen)
 
 ## What I Can Offer
 
-I am an infrastructure automation developer and I particularly 
-enjoy working at the intersection of development and operations; 
-helping each team understand the needs of the other and, 
-at a technical level, creating the tools and processes to make 
-the various components of a given service, or interoperating services, 
-work smoothly. I am also keen to contribute to the core products in 
-order to further advance scalability and manageability.
+I love enabling productivity. For example:
+
+- Giving developers solid, continuous pipelines to see their work build and
+deployed with low friction. Modifying products to support these goals as needed.
+- Giving first-responders consistently deployed infra with enough observability (but not too much) to get to the bottom of issues quickly.
+- Contributing to SRE efforts to bring software engineering rigour to infrastructure management e.g. quick
+feedback during dev, testing, keep things DRY, APIs first, and having awareness of the full stack from OSI layer 1 to 7
+- Thus enabling customers to have highly available and performant platforms to get their work done.
+
+I enjoy working at the interfaces between domains.
 
 ## Proficiency Summary
 
-My proficiencies cover the following areas
+My proficiencies cover the following areas (see following sections for more details)
 
-* **Development Support** - Contributing to build engineering tasks such as
-    build system code, version control and Continuous Integration (CI)
+* **Development productivity/Support** - Contributing to build engineering tasks such as
+    build system code, build job runners, and Continuous Integration (CI)
     systems management.
 * **Infrastructure Code and Orchestration** - A combination of configuration management and tool
-    development in various scripting languages to support 
+    development in various languages to support 
     automated infrastructure and application management. This includes using
-    container orchestration tools like Kubernetes (K8s) and Mesos/Marathon.
-* **Application Administration** - Supporting, primarily Java, web applications with regard to
-    provisioning, performance tuning and troubleshooting.
-* **Systems Administration and Networking** - Managing, in as automated a way as possible, Linux 
-    and Unix systems with regard to installation, ongoing maintenance and troubleshooting. Network 
-    management experience has given me good grasp of networking configuration and how the servers 
-    I manage fit into the larger network.
+    container orchestration tools like Kubernetes (K8s) combined with AWS CDK (mainly Typescript and Python) and/or Terraform.
+* **Application Administration** - Supporting applications with regard to
+    provisioning, performance tuning, observability, and troubleshooting using metrics and log analysis.
+* **Systems Administration and Networking** - While classic "System Administration" has been supplanted (for the
+    better) by SRE and similar, the infrastructural lessons I learned there serve me well. That experience enables me to
+    quickly hone in on potential areas of investigation or how a stack might fit together. As well has handy troubleshooting
+    skills like packet sniffing and strace.
+* **Inter Team Conventions** - I try to establish a "paved road" that can make the lives of developers easier so they
+    can focus on their value add. For example: shared CI/CD libraries/GitHub actions.
 
-Spoken languages
+## A note on AI / LLM / ML
 
-* English - Native speaker
-* Dutch - Fluent speaker
+Since the advent of generative AI, I now use AI or ML of some kind in most of the topics in the rest of this resume.
+Rather than mention it in each section, here are some examples:
+
+* Code generation with agents like Claude Code, OpenCode, GitHub Copilot CLI
+* Providing tools (direct and via MCPs) for agents to use to inspect (read-only) the state of a system when exploring or
+  troubleshooting.
+* Use ML tools like word embeddings to triage log files more quickly. I.e. find related log entries to give more context.
+* Adversarial code reviews between multiple LLMs to produce better quality work before the first human gets to look at a
+  PR.
+* Selecting the best model for the job i.e. summarisation and basic exploration with smaller models and deep
+  troubleshooting with larger models. Same criteria for multi-agent systems like oh-my-opencode
 
 ## Proficiency Details
 
+### Continuous Integration / Continuous Deployment (CI/CD)
+
+This overlaps somewhat with the developer productivity sphere and my main areas has been:
+
+* **Job Runners**
+    * Jenkins - Fully automated, version controlled Jenkins management using Kubernetes compute for jobs
+        * Docker containers defined in Git to manage versioning and plugin installation. No manual plugin installs.
+        * JobDSL to define the creation and structure of jobs (e.g. parameters, schedule, etc)
+        * Per-project, in-repo Jenkinsfiles (mainly Groovy based) to define job logic specific to each project
+        * Organisation shared libraries (Groovy) for certain common operations (e.g. scheduling JNLP pods)
+    * GitHub Actions
+        * Create custom actions for PR hygiene e.g. check for tickets, branch age, etc.
+        * Per-project workflows for building, publishing, tests and so on
+    * AWS CodePipeline/CodeBuild
+        * Define buildspec.yaml files to perform similar tasks to GitHub workflows
+* **Developer productivity**
+    * Build Systems
+       * Gradle - Single step builds managing all dependencies automatically.
+    * Configure above job runners to give enough information to developers for self-help troubleshooting
+    * Empower developers to take ownership of their pipelines
 
 ### Infrastructure Code
 
-* **Code**
-    * Scripting - I have used the languages below for areas such as configuration management, 
-                  general automation and monitoring.
-        * Bash
-        * Ruby
-        * Python
-        * Perl
-    * Groovy - Used in the context of Gradle
-    * Java - I have written small Java services for "glue" integration services
-        and also modest product contributions to support better build
-        integration.
-    * Testing - Unit tests JUnit in the context of Groovy and Java
+* AWS CDK (Cloud Development Kit) - Define infrastructure, usually in Typescript or Python to manage software stacks
+  from within the application's repo
+* Terraform - Define infrastructure with declarative Terraform, usually for shared infrastructure not specific to a
+  single project.
 
-* **Containers and Container Orchestration**
-    * Containers - Create, update and run Docker containers mostly in the
-        context of continuous integration and deployment. Create and maintain
-        tooling to streamline and automate container creation tailored to
-        support development workflows.
-    * Orchestration - Define deployment specs for Kubernetes and Mesos/Marathon
-        to support both building, testing and deploying applications.
-    * CI/CD - Integrate container creation and deployment with Jenkins to fully
-        automate building, testing and deployment when code is committed to
-        revision control.
+### Software Development
 
-* **Configuration Management** - I am using configuration management to affect fully
-                                 automatic and consistent environments. This
-                                 allows me to manage systems and applications at
-                                 scale.
-    * General - Working with other departments on a common code base - deciding
-                conventions and areas of responsibility. Writing documentation
-                and providing internal training for colleagues.
-    * Chef - Create/manage cookbooks, create data bags, custom Ohai plugins,
-             environment management, converting legacy scripts into
-             Cookbooks, Chef server and client management, node bootstrap.
-    * Puppet - Create/manage modules, create and use Facter facts, Puppet server
-               and node services, node bootstrap. 
+My main software development efforts have been support CI/CD, infra code, and modifying applications/services for
+deployment, observability or to improve reliability. I use whichever language the project calls for; most of my
+experience has been with:
 
-* **Version Control Systems** 
-    * Git - Configuration management repositories, in-house code
-            repositories.
-    * Subversion - Checkout and build legacy code bases.
+- Java and Groovy: Gradle, Jenkins, and Java based applications
+- Python: AWS Cloud Development Kit (CDK) code, Python based microservices
+- Typescript: Custom GitHub actions, AWS CDK
+- Ruby: Chef code
 
+And, of course, Bash which is ubiquitous. Everything from quick command-line loops to custom deployment wrappers
+performing the "last mile" of customisation.
 
-* **Testing**
-    * Configuration management
-        * Unit Testing - Chefspec and Rspec
-        * Integration Testing - Test Kitchen with Serverspec
+#### Testing
 
-* **Development Support**
-    * Using Maven to build projects and manage dependencies.
-    * Using Hudson for continuous deployment.
+I always try and write my code to testable whether it is for Infra or a running service. I usually use what is common
+for a given language e.g.  Junit (Java), Spock (Groovy), RSpec (Ruby).
 
-### Application Administration
+### Observability
 
-* **Java**
-    * JVM - Installation, upgrade considerations and tuning for type of application.
-    * Tomcat - Web application deployment, security and integration with other
-middleware.
-    * ActiveMQ - Installation, tuning and troubleshooting.
+* Grafana and Prometheus for mostly Kubernetes related deployments
+* AWS CloudWatch for native AWS services
+* New Relic for application specific insights
+* Experience with older tools like Nagios, RRDTool, Cacti, etc.
 
-* **Supporting Services and Tools**
-    * Apache - Integration with backend apps, tuning and security.
-    * Authentication - LDAP, Shibboleth (SAML2) single-sign-on
-    * Package Management - Red Hat (RPM) and Debian (.deb) packages
-    * Documentation
-        * Wiki based, e.g. Atlassian Confluence, MediaWiki. 
-        * Markdown documents. 
-        * Diagrams - Google drawings, yEd, Visio
+### Container Orchestration
 
-* **Databases**
-    * MySQL - Installation, user creation, backup & recovery, replication, clustering
-    * PostgresSQL - Installation and configuration
-    * Oracle - Installation, configuration and tuning of SGA sizes. Alert log monitoring.
-    * SQL - Simple SQL queries for monitoring and troubleshooting.
+This pervades the topics above and touches product life-cycles from local testing all the way through to production.
 
-* **Monitoring**
-    * JMX - Querying JMX Metrics from Nagios, Munin and other systems
-    * Nagios - Plugin creation, Nagios installation and management
-    * SNMP
-    * Munin
-    * In house monitoring tools using rrdtool
+* Local
+  * Plain Docker for quick testing
+  * Docker compose and local K8s stacks for more complete testing but with a quick feedback loop.
+* CI/CD
+  * Jenkins pipelines backed by elastic Kubernetes instances on AWS EKS (Elastic Kubernetes Service)
+  * Longer lived developer deployments to demo and QA
+* Deployment environments
+  * In addition to Kubernetes, using services like AWS ECS (Elastic Container Service) for prod deployments
 
-### Systems Administration and Networking
+And common build pipelines using CDK or a common container build job to make images available for deployments.
 
-* **Unix-like Systems**
-    * Linux - Red Hat, Debian, Ubuntu
-    * Solaris
-    * BSD - OpenBSD, FreeBSD
-    * OS X
-* **Security**
-    * VPN - OpenVPN, Linux IPsec (Kame + Racoon)
-    * Firewalls - IPtables and OpenBSD packet filter
-    * Implement security best practices
-    * Network audits with Nmap.
-    * OpenSSL - Create and inspect certificates
-    * Linux PAM
-* **Networking**
-    * OSI Model understanding
-    * TCP/IP theories and configuration
-    * Basic Cisco IOS usage
-    * Knowledge of switching concepts (VLANs and spanning tree)
-    * General understand of routing protocols.
-* **Virtualisation**
-    * Xen - Red Hat and Citrix
-    * VMware
-    * VirtualBox
-* **High-availability**
-    * LVS (Linux Virtual Server) Loadbalancer
-    * Heartbeat
-* **Systems Provisioning**
-    * Red Hat kickstart
-    * Debian FAI
-* **File Serving**
-    * NFS
-    * CIFS (Samba)
-    * Webdav
-* **Storage**
-    * RAID Concepts and configuration on common controllers
-    * Linux software raid
-    * Linux Logical Volume Manager (LVM)
-    * Disk encryption with LUKS
-* **Commonly Run Services**
-    * DNS - ISC Bind
-    * OpenSSH
-    * DHCP - ISC dhcpd
+### Performance
 
-## Working Styles
+Getting an app deployed is no good if it does not perform. My main avenues for investigating perf issues are:
 
-* Embedded in development teams; taking part in Scrum.
-* DevOps style co-operation between Operations and Development.
+* JVM metrics such as Garbage Collection, heap usage, etc.
+* Services like New Relic to look for longer term trends and comparisons
+* Built-in metrics that AWS provide and creating dashboards for easy review
+* System metrics like IO wait, memory, CPU usage.
+
+Some exposure to modifying Java apps to use finer grained locking (e.g. striped locking) and avoiding locks where possible e.g.
+checking caches first prior to trying to lock.
+
+### Version Control Systems
+
+Git is an integral part to all of the above and a core part of my day-to-day work.
+
+### Databases
+
+* AWS RDS - Provision below database engines in AWS via Terraform or CDK with sensible alerting.
+* PostgresSQL & MySQL - Installation, user creation, backup & recovery, replication, clustering
+* SQL - SQL queries focused on monitoring and troubleshooting.
+
+### Identity and Service Providers
+
+I have mostly configured these for internal use by QA teams:
+
+* Shibboleth IdP
+* Shibboleth SP (Service Provider) with Apache and custom SP tools
+* Central Authentication Service (CAS)
+* OpenLDAP as a backing source of identity details
+
+### Networking
+
+Understanding of networking fundamentals such as:
+
+* TCP/IP theories and configuration
+* OSI Model
+* Knowledge of switching concepts like VLANs
+* General understanding of routing protocols
+* VPN - OpenVPN, Linux IPsec (Kame + Racoon)
+* Firewalls - Packet filtering
+* Network audits with Nmap.
+* OpenSSL - Create and inspect certificates
+* DHCP
+* DNS servers like dnsmasq and Bind
+* Network file systems like NFS, CIFS (SMB)
+
+### Storage
+
+#### AWS
+
+* Elastic Block Store
+* Storage Gateway
+* S3
+
+#### Linux
+
+* RAID Concept
+* Linux software raid
+* Linux Logical Volume Manager (LVM)
+
+### OS Experience
+
+I find the command-line most comfortable (and enjoyable) and mostly work in Unix-like environments. Specifically, every service I work on
+runs in a Linux-derived runtime of some sort. I am also familiar with Linux base level services like systemd, legacy
+init, PAM, etc.
+
+## Spoken languages
+
+* English - Native speaker
+* Dutch - Conversational speaker
 
 ## Experience
 
-### Blackboard International
-#### Build and Release Engineer - October 2015 to Present
-Location: Sydney, Australia
+### Blackboard
+
+#### Platform Engineer, CI/CD, Infra as Code (Staff Platform Engineer) - January 2020 to Present
+Location: Remote in NSW, Australia
+
+Work on projects to streamline our infrastructure, applications, and processes to not only automate but view our platform and applications as single system. Thus:
+
+ - Everything is API first
+ - In keeping with the above point, modify our core applications to better support automation
+ - Use AWS and other facilities where appropriate, we want to differentiate in our app not reinvent the wheel
+ - Deploy Infrastructure with awareness of other systems and APIs. Use AWS CDK and Terraform to define all infrastructure thus ensuring we have controlled release, accountability, and change history.
+
+In addition to the above:
+
+- Maintain our CI/CD infrastructure consisting of Jenkins code (JobDSL, Jenkinsfile Groovy DSL)
+- Maintain Gradle based build systems (Groovy based)
+- Handle SRE related escalations
+
+#### Build and Release Engineer - October 2015 to January 2020
+Location: Remote in NSW, Australia
 
 In this role I'm working to 
 
+Infrastructure:
+
+* Deploy Microservices via AWS CDK (Cloud Development Kit)
+* Migrate Microservices from Terraform to AWS CDK
+* Deploy Microservices via Terraform
+
+CI/CD Tasks:
+
 * Extend our existing Gradle build system
 * Ensure reproducible builds
-* Support the Jenkins pipeline
+* Use container orchestration tools like Kubernetes to deploy services
+* Support the Jenkins pipeline and integrate with Kubernetes for scalable builds
 * Create releases
-
-As well as tasks related supporting the automation surrounding the release 
-process (primarily Chef) and provisioning to AWS.
 
 #### Infrastructure Automation Developer - October 2014 to Present
 Location: Sydney, Australia
